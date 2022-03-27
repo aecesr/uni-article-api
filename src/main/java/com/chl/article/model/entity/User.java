@@ -20,7 +20,7 @@ import java.util.Date;
 @Builder
 public class User {
     private Integer id;
-    private String wxOpenId;
+    private String wxOpenid;
     private String phone;
     private String password;
     private String nickname;
@@ -29,5 +29,7 @@ public class User {
     private LocalDate birthday;
     private String address;
     private Date create_time;
+    private Integer icon;
+    private String banner;
 
 }

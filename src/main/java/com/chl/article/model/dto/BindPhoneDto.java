@@ -9,14 +9,14 @@ import lombok.NoArgsConstructor;
  * @program: uni-article-api
  * @description:
  * @Author: 曹红亮
- * @create: 2022-03-22 20:25
+ * @create: 2022-03-26 21:34
  **/
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class LoginDto {
+public class BindPhoneDto {
     private String phone;
-    private String password;
     private String code;
+    private String wxOpenId;
 }
